@@ -17,6 +17,11 @@ Frequency-aware lightweight Transformer for aircraft power system fault diagnosi
 
 **Tech:** PyTorch · FFT · CNN · Attention · Transformer
 
+### 🤖 [Fault Diagnosis Agent](https://github.com/POORBUTLIKEDREAM/FRT-Net/tree/main/agent_demo) — V1 Building
+Agent-style fault diagnosis workflow that wraps FRT-Net as a diagnosis tool and combines signal analysis, local knowledge retrieval and LangGraph orchestration.
+
+**Tech:** Python · PyTorch · LangGraph · Tool Calling · RAG-style Retrieval
+
 ### 🌧️ Multimodal Rainfall Forecasting — In Progress
 Multimodal spatiotemporal rainfall forecasting using radar, satellite imagery and rain-gauge observations.
 
@@ -27,28 +32,18 @@ Congestion-aware dynamic routing and resource scheduling for large-scale sensor 
 
 **Tech:** Python · Graph Optimization · Greedy Algorithm · Heuristic Search
 
-### 🤖 Multimodal Fault Diagnosis Agent — Building
-An LLM-based diagnostic agent integrating fault classification, RAG knowledge retrieval and tool calling.
-
-**Tech:** LLM · RAG · LangGraph · Tool Calling
-
 ## 🌱 Open Source Practice
 
-### [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — Main Contribution Track
-**Status:** Learning / preparing first contribution  
-Studying reproducible Agent architectures with a focus on **LangGraph, RAG, Tool Calling, Memory and Agent Evaluation**. My planned contribution is a domain-oriented Fault Diagnosis Agent tutorial that connects a classifier, signal-analysis tools and retrieval-based knowledge reasoning.
+### [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — Primary Track
+Preparing a domain-agent tutorial around fault diagnosis, with LangGraph orchestration, neural diagnosis tools, retrieval and evaluation. The local V1 implementation is available in the FRT-Net repository above.
 
 ### [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — Multimodal Track
-**Status:** Learning  
-Exploring vision-language model inference, visual-token processing, multi-image understanding and structured multimodal reasoning, with the goal of extending my multimodal experience from sensor fusion to VLM-based applications.
+Studying VLM inference, visual-token processing and multimodal reasoning as preparation for future multimodal Agent experiments.
 
-### [ms-swift](https://github.com/modelscope/ms-swift) — Fine-tuning Track
-**Status:** Learning  
-Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows, with planned lightweight experiments on Qwen-family models before moving to more expensive post-training methods.
+### [ms-swift](https://github.com/modelscope/ms-swift) — Training Track
+Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows for future LLM/VLM adaptation experiments.
 
-📘 **[Detailed Open Source Roadmap](./OPEN_SOURCE.md)**
-
-> I distinguish learning/reproduction from real contribution. Work will only be marked as contributed after a real issue, commit or pull request exists.
+> Open-source items above are clearly separated from authored projects. Contribution status will be updated only after actual issues or pull requests are submitted.
 
 ## 🛠 Tech Stack
 
@@ -56,14 +51,14 @@ Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows, with planned ligh
 **Deep Learning:** PyTorch · Transformers  
 **Models:** CNN · Transformer · Attention · Mamba  
 **Research:** Multimodal Fusion · Time-series Modeling · Optimization  
-**Currently Learning:** RAG · LangGraph · Tool Calling · Vision-Language Models · LoRA
+**Currently Learning:** RAG · LangGraph · Tool Calling · Vision-Language Models
 
 ## 🎯 Current Focus
 
-- Building a multimodal fault-diagnosis Agent around my FRT-Net research
+- Developing the Fault Diagnosis Agent from a reproducible V1 into a tool-calling + RAG system
 - Improving multimodal rainfall forecasting experiments and evaluation
-- Preparing a first real open-source contribution to GenAI Agents
-- Learning Qwen-VL/VLM inference and lightweight LLM/VLM fine-tuning
+- Learning Qwen-VL / VLM inference and multimodal Agent workflows
+- Preparing a real open-source contribution based on the fault-diagnosis Agent tutorial
 
 ## 📫 Contact
 
