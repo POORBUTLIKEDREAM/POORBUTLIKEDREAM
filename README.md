@@ -32,15 +32,23 @@ An LLM-based diagnostic agent integrating fault classification, RAG knowledge re
 
 **Tech:** LLM · RAG · LangGraph · Tool Calling
 
-## 🌱 Open Source I'm Exploring
+## 🌱 Open Source Practice
 
-- [LangGraph](https://github.com/langchain-ai/langgraph) — stateful agent workflows, tool use and multi-agent orchestration
-- [LangGraph Swarm](https://github.com/langchain-ai/langgraph-swarm-py) — multi-agent handoff and swarm-style coordination
-- [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — vision-language models and multimodal reasoning
-- [ms-swift](https://github.com/modelscope/ms-swift) — LLM/VLM fine-tuning, LoRA, DPO and GRPO workflows
-- [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — practical agent architectures and reproducible tutorials
+### [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — Main Contribution Track
+**Status:** Learning / preparing first contribution  
+Studying reproducible Agent architectures with a focus on **LangGraph, RAG, Tool Calling, Memory and Agent Evaluation**. My planned contribution is a domain-oriented Fault Diagnosis Agent tutorial that connects a classifier, signal-analysis tools and retrieval-based knowledge reasoning.
 
-> I use these repositories for learning, reproduction and future open-source contributions. They are listed here as open-source ecosystems I follow, not as projects authored by me.
+### [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — Multimodal Track
+**Status:** Learning  
+Exploring vision-language model inference, visual-token processing, multi-image understanding and structured multimodal reasoning, with the goal of extending my multimodal experience from sensor fusion to VLM-based applications.
+
+### [ms-swift](https://github.com/modelscope/ms-swift) — Fine-tuning Track
+**Status:** Learning  
+Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows, with planned lightweight experiments on Qwen-family models before moving to more expensive post-training methods.
+
+📘 **[Detailed Open Source Roadmap](./OPEN_SOURCE.md)**
+
+> I distinguish learning/reproduction from real contribution. Work will only be marked as contributed after a real issue, commit or pull request exists.
 
 ## 🛠 Tech Stack
 
@@ -48,14 +56,14 @@ An LLM-based diagnostic agent integrating fault classification, RAG knowledge re
 **Deep Learning:** PyTorch · Transformers  
 **Models:** CNN · Transformer · Attention · Mamba  
 **Research:** Multimodal Fusion · Time-series Modeling · Optimization  
-**Currently Learning:** RAG · LangGraph · Tool Calling · Vision-Language Models
+**Currently Learning:** RAG · LangGraph · Tool Calling · Vision-Language Models · LoRA
 
 ## 🎯 Current Focus
 
 - Building a multimodal fault-diagnosis Agent around my FRT-Net research
 - Improving multimodal rainfall forecasting experiments and evaluation
-- Learning Qwen-VL / VLM inference and multimodal Agent workflows
-- Making real open-source contributions through issues, documentation and pull requests
+- Preparing a first real open-source contribution to GenAI Agents
+- Learning Qwen-VL/VLM inference and lightweight LLM/VLM fine-tuning
 
 ## 📫 Contact
 
