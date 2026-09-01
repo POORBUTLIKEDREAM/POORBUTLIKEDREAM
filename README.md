@@ -17,6 +17,13 @@ Frequency-aware lightweight Transformer for aircraft power system fault diagnosi
 
 **Tech:** PyTorch · FFT · CNN · Attention · Transformer
 
+### 🤖 [Fault Diagnosis Agent](https://github.com/POORBUTLIKEDREAM/Fault-Diagnosis-Agent) — V1
+A reproducible LangGraph-based fault-diagnosis workflow combining a model-as-tool interface, interpretable signal analysis, local knowledge retrieval and structured reporting.
+
+**Tech:** Python · LangGraph · Tool Integration · Retrieval · Signal Analysis
+
+> Current V1 runs with a transparent demo diagnosis backend when a validated FRT-Net checkpoint is unavailable. LLM tool calling and embedding-based RAG are planned next steps.
+
 ### 🌧️ Multimodal Rainfall Forecasting — In Progress
 Multimodal spatiotemporal rainfall forecasting using radar, satellite imagery and rain-gauge observations.
 
@@ -27,20 +34,14 @@ Congestion-aware dynamic routing and resource scheduling for large-scale sensor 
 
 **Tech:** Python · Graph Optimization · Greedy Algorithm · Heuristic Search
 
-### 🤖 Multimodal Fault Diagnosis Agent — Building
-An LLM-based diagnostic agent integrating fault classification, RAG knowledge retrieval and tool calling.
+## 🌱 Open Source Practice
 
-**Tech:** LLM · RAG · LangGraph · Tool Calling
-
-## 🌱 Open Source I'm Exploring
-
-- [LangGraph](https://github.com/langchain-ai/langgraph) — stateful agent workflows, tool use and multi-agent orchestration
-- [LangGraph Swarm](https://github.com/langchain-ai/langgraph-swarm-py) — multi-agent handoff and swarm-style coordination
+- [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — primary contribution target; preparing a fault-diagnosis Agent tutorial based on the V1 project above
+- [LangGraph](https://github.com/langchain-ai/langgraph) — stateful Agent workflows and tool orchestration
 - [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — vision-language models and multimodal reasoning
-- [ms-swift](https://github.com/modelscope/ms-swift) — LLM/VLM fine-tuning, LoRA, DPO and GRPO workflows
-- [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — practical agent architectures and reproducible tutorials
+- [ms-swift](https://github.com/modelscope/ms-swift) — LLM/VLM fine-tuning, LoRA, SFT and preference-optimization workflows
 
-> I use these repositories for learning, reproduction and future open-source contributions. They are listed here as open-source ecosystems I follow, not as projects authored by me.
+> Open-source ecosystems are listed as learning/contribution targets, not as projects authored by me. Contribution status will be updated only after actual issues or pull requests are submitted.
 
 ## 🛠 Tech Stack
 
@@ -52,10 +53,10 @@ An LLM-based diagnostic agent integrating fault classification, RAG knowledge re
 
 ## 🎯 Current Focus
 
-- Building a multimodal fault-diagnosis Agent around my FRT-Net research
+- Evolving Fault Diagnosis Agent from V1 workflow orchestration to LLM tool calling + embedding RAG
+- Connecting the validated FRT-Net inference backend and building Agent evaluation
 - Improving multimodal rainfall forecasting experiments and evaluation
-- Learning Qwen-VL / VLM inference and multimodal Agent workflows
-- Making real open-source contributions through issues, documentation and pull requests
+- Preparing a real open-source contribution based on the fault-diagnosis Agent tutorial
 
 ## 📫 Contact
 
