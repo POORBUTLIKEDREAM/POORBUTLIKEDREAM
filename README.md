@@ -17,11 +17,6 @@ Frequency-aware lightweight Transformer for aircraft power system fault diagnosi
 
 **Tech:** PyTorch · FFT · CNN · Attention · Transformer
 
-### 🤖 [Fault Diagnosis Agent](https://github.com/POORBUTLIKEDREAM/FRT-Net/tree/main/agent_demo) — V1 Building
-Agent-style fault diagnosis workflow that wraps FRT-Net as a diagnosis tool and combines signal analysis, local knowledge retrieval and LangGraph orchestration.
-
-**Tech:** Python · PyTorch · LangGraph · Tool Calling · RAG-style Retrieval
-
 ### 🌧️ Multimodal Rainfall Forecasting — In Progress
 Multimodal spatiotemporal rainfall forecasting using radar, satellite imagery and rain-gauge observations.
 
@@ -32,18 +27,20 @@ Congestion-aware dynamic routing and resource scheduling for large-scale sensor 
 
 **Tech:** Python · Graph Optimization · Greedy Algorithm · Heuristic Search
 
-## 🌱 Open Source Practice
+### 🤖 Multimodal Fault Diagnosis Agent — Building
+An LLM-based diagnostic agent integrating fault classification, RAG knowledge retrieval and tool calling.
 
-### [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — Primary Track
-Preparing a domain-agent tutorial around fault diagnosis, with LangGraph orchestration, neural diagnosis tools, retrieval and evaluation. The local V1 implementation is available in the FRT-Net repository above.
+**Tech:** LLM · RAG · LangGraph · Tool Calling
 
-### [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — Multimodal Track
-Studying VLM inference, visual-token processing and multimodal reasoning as preparation for future multimodal Agent experiments.
+## 🌱 Open Source I'm Exploring
 
-### [ms-swift](https://github.com/modelscope/ms-swift) — Training Track
-Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows for future LLM/VLM adaptation experiments.
+- [LangGraph](https://github.com/langchain-ai/langgraph) — stateful agent workflows, tool use and multi-agent orchestration
+- [LangGraph Swarm](https://github.com/langchain-ai/langgraph-swarm-py) — multi-agent handoff and swarm-style coordination
+- [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) — vision-language models and multimodal reasoning
+- [ms-swift](https://github.com/modelscope/ms-swift) — LLM/VLM fine-tuning, LoRA, DPO and GRPO workflows
+- [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents) — practical agent architectures and reproducible tutorials
 
-> Open-source items above are clearly separated from authored projects. Contribution status will be updated only after actual issues or pull requests are submitted.
+> I use these repositories for learning, reproduction and future open-source contributions. They are listed here as open-source ecosystems I follow, not as projects authored by me.
 
 ## 🛠 Tech Stack
 
@@ -55,10 +52,10 @@ Studying LoRA/QLoRA, SFT and multimodal fine-tuning workflows for future LLM/VLM
 
 ## 🎯 Current Focus
 
-- Developing the Fault Diagnosis Agent from a reproducible V1 into a tool-calling + RAG system
+- Building a multimodal fault-diagnosis Agent around my FRT-Net research
 - Improving multimodal rainfall forecasting experiments and evaluation
 - Learning Qwen-VL / VLM inference and multimodal Agent workflows
-- Preparing a real open-source contribution based on the fault-diagnosis Agent tutorial
+- Making real open-source contributions through issues, documentation and pull requests
 
 ## 📫 Contact
 
